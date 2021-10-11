@@ -1,0 +1,151 @@
+h1,h2,h3,h4,h5{
+    font-family: cinzel;
+}
+#para1,#para2,#para3,#para4{
+    font-size: 20px;
+    font-family: Helvetica;
+    
+}
+#adcsfont,#commsfont,#payloadfont,#epsfont,#managementfont,#odhsfont,#stmsfont{
+    font-size: 16px;
+    font-family: Helvetica;
+}
+p{
+    font-family: helvetica;
+}
+#colchange :hover{
+  color: white;
+}
+.bg-dark
+{
+    background: #000;
+}
+.fixed-top{
+    transition: 600ms;
+}
+#navitem:hover{
+    color: #FFFFF7;
+}
+#block, #block1{
+    background: black;
+    border-radius: 20px;
+}
+#col-sub{
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.bg-black{
+    background-color: #101010;
+}
+.dropdown-dark{
+    background-color: transparent;
+    border: none;
+}
+#insta:hover{
+    content: url('insta2.png');
+}
+#linkedin:hover{
+    content: url('linkedin.png');
+}
+#facebook:hover{
+    content: url('img01.png');
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.our-team{
+  text-align: center;
+  position:relative;
+  color:#fff;
+}
+.our-team img{
+  width:100%;
+}
+.our-team .content{
+  background:rgba(0,0,0,0.6);
+  position:absolute;
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+  text-align: center;
+  padding-top:45%;
+  transform:perspective(400px) rotateX(-90deg);
+  transform-origin:center top 0;
+  transition:all 0.5s ease 0s;
+  opacity: 0;
+}
+.our-team:hover .content,
+.our-team.active .content{
+  opacity:1;
+  transform:perspective(400px) rotateX(0deg);
+}
+.our-team .content .title{
+  margin:0 0 10px;
+  display:block;
+  font-size: 25px;
+  font-weight: 600;
+}
+.our-team .content .post{
+  margin:0 0 25px;
+  display:block;
+  font-size: 15px;
+}
+.our-team .social{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.our-team .social li{
+  display:inline-block;
+}
+.our-team .social li a{
+  display:block;
+  color:#fff;
+  font-size: 20px;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  border-radius: 0;
+  background-color:gray;
+  margin-right:5px;
+  transition:all 0.5s ease 0s;
+  position:relative;
+}
+.our-team .social li a:hover,
+.our-team.active .social li a{
+  border-radius: 50%;
+  text-decoration: none;
+}
+@media screen and (max-width:990px){
+  .our-team{
+    margin-bottom:30px;
+  }
+}
+.img-fluid{
+    border: 2px solid white;
+}
+#change:hover{
+    content: url('adcs6.png');
+}
+#change1:hover{
+    content: url('eps4.png');
+}
+#change2:hover{
+    content: url('stms4.png');
+}
+#change3:hover{
+    content: url('odhs4.png');
+}
+#change4:hover{
+    content: url('comms4.png');
+}
+#change5:hover{
+    content: url('payload3.png');
+}
+#change6:hover{
+    content: url('management5.png');
+}

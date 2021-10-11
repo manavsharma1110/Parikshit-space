@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parikshit</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) {
+                    $("#nav").css("background", "black");
+                }
+                else {
+                    $("#nav").css("background", "transparent");
+                }
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-xl fixed-top  navbar-dark" id="nav">
+            <div class="container">
+                <a href="home.html">
+                    <div class="navbar-left"><img src="parikshitlogo.png" class="mt-0 mx-auto" style="height: 70px;"></div>
+                </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto" id="colchange">
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="home.html">
+                                    <h4>Home</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="subsystem1.html">
+                                    <h4>Subsystems</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="team.html">
+                                    <h4>Team</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#foot">
+                                    <h4>Contact Us</h4>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                    
+                </div>
+
+        </nav>
+    </div>
+    <!-- BODY -->
+    <video autoplay loop muted playsinline style="width: 100%;" class="mb-0">
+        <source src="mainvideo1.mp4">
+    </video>
+    <div class="container-fluid" style="background-color: black; margin-top: -20px;">
+        <div class="container mb-5" id="container1">
+            <div class="row">
+                <div class="col-sm-8 text-light">
+                    <h3 class="mb-3 mt-5"><b>About Us?</b></h3>
+                    <p class="mb-3 text-center" id="para1">Parikshit is derived from the Sanskrit word ‘Parikshan’,
+                        which means ‘testing’. The
+                        Project started in 2010 with the goal of increasing student industry link, contributing to the
+                        country’s space program and making Manipal Institute of Technology a respected center for space
+                        technology. Under the constant guidance of various scientists from the ISRO Satellite Centre
+                        (ISAC), Vikram Sarabhai Space Centre (VSSC) and a panel of faculties of MIT, critical milestones
+                        have been cleared to launch our first satellite. As a research project we have presented more
+                        than 50 technical papers worldwide.</p>
+
+                    <p id="para2">The process is carried out in a state-of-the-art laboratory that has facilities like
+                        the
+                        functional Parikshit Ground Station(PGS) which can track satellites in orbit. There is also a
+                        clean room for testing and a soldering room for circuit prototyping and testing.</p>
+                </div>
+                <div class="col-sm-4 mt-5">
+                    <img src="parikshit1.png" height="350px">
+                </div>
+            </div>
+            <hr style="background: white;">
+            <div class="container mt-5" id="container1">
+                <div class="row">
+                    <div class="col-sm-4 mt-5 ">
+                        <img src="parikshit_earth.gif">
+
+                    </div>
+                    <div class="col-sm-8 text-light">
+                        <h3 class="my-3"><b>ABOUT SATELLITE</b></h3>
+                        <p class="mb-3 text-center" id="para3">Our satellite is a 2U class, Polar Low Earth Orbiting,
+                            Earth Pointing
+                            Nano-satellite. A nano-satellite is an artificial satellite with a mass between 1 to 10 kg;
+                            our satellite has dimensions of 10x10x22.7 cm and weighs 2.3 kg.</p>
+
+                        <p id="para4">Why a nano-satellite? Nano-satellites are appealing because their small size gives
+                            them the
+                            option to piggyback on larger launches, avoiding the need for a dedicated and costly launch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video autoplay loop muted playsinline style="width: 100%;" class="mb-0">
+            <source src="mainvideo2.mp4">
+        </video>
+        <div class="container-fluid">
+            <h1 class="text-center text-light mb-0 display-4"><b>Subsystems</b></h1>
+        </div>
+        <div class="container-fluid">
+            <div class="container" id="block">
+                <hr style="background: white;">
+                <div class="row">
+                    <div class="col-lg mx-4 mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="adcs2.png" height="80px">
+                            <h4 class="text-center">ADCS</h4>
+                        </div>
+                        <p class="text-center" id="adcsfont">Attitude Determination and Control Subsystem or ADCS
+                            controls the
+                            orientation and position of
+                            the satellite based on a combined system of sensors and actuators. When in orbit ADCS is
+                            also responsible for stability of the satellite for pointing of the camera payload and data
+                            transmission while keeping in mind power constraints.</p>
+                    </div>
+                    <div class="col-lg mx-4 mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="comms3.png" height="80px">
+                        </div>
+                        <h4 class="text-center">COMMS</h4>
+                        <p class="text-center" id="commsfont">The Communications and Ground Station Subsystem or COMMS
+                            is responsible
+                            for the exchange of
+                            information to and fro and on-board the satellite. The PAGOS can track and receive the
+                            beacon of currently operational satellites transmitting in the ham radio frequencies. It
+                            uses two RF antennae to establish a connection.</p>
+
+                    </div>
+                    <div class="col-lg mx-4 mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="eps3.png" height="80px" id="imgh">
+                        </div>
+                        <h4 class="text-center">EPS</h4>
+                        <p class="text-center" id="epsfont">The Electrical Power Subsystem or EPS is responsible for
+                            harnessing,
+                            conditioning, storing
+                            and distributing power on-board the satellite. They also also deal with the design and
+                            soldering of the PCBs that are used for testing. All the PCBs that used are designed and
+                            soldered in-house.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <!-- clear fix -->
+        </div>
+        <div class="container-fluid">
+            <div class="container" id="block1">
+                <div class="row">
+                    <div class="col-lg mx-4 mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="payload2.png" height="80px">
+                        </div>
+                        <h4 class="text-center">PAYLOAD</h4>
+                        <p class="text-center" id="payloadfont">Payload: the satellite's mission. Parikshit has two —
+                            primary: the
+                            thermal infrared camera
+                            and secondary: passive electrodynamic tether (EDT). The camera will capture thermal images
+                            of the Indian subcontinent for climate-based data. The EDT will deorbit the satellite after
+                            the mission; something never tried before and potentially revolutionary in reducing space
+                            debris as well.</p>
+                    </div>
+                    <div class="col-lg mx-4 mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="stms2.png" height="80px">
+                        </div>
+                        <h4 class="text-center">STMS</h4>
+                        <p class="text-center" id="stmsfont">The Structures, Thermal and Mechanisms Subsystem or STMS
+                            create and do
+                            the final assembly
+                            of the satellite, aware of external space obstacles. They will ensure the satellite can
+                            endure launch loads, survive radiation, and more. Structure must follow nanosatellite specs
+                            and they ensure the sensitive components are well-placed away from harm.</p>
+                    </div>
+                    <div class="col-lg mx-4 mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="management4.png" height="80px">
+                        </div>
+                        <h4 class="text-center">MANAGEMENT</h4>
+                        <p class="text-center" id="managementfont">Management handles all backend operations. From
+                            logistical work like
+                            filing for reimbursement, contacting authorities, having clear flow of communication to
+                            collaboration
+                            and content creation, they do a bit of everything. It's done in a "sandbox" environment
+                            where one is free to explore creatively and managerially.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third -->
+        <div class="container-fluid">
+            <div class="container" id="block1">
+                <div class="row">
+                    <div class="col-lg mx-4 mb-5"></div>
+                    <div class="col-lg mb-5" id="col-sub">
+                        <div class="text-center">
+                            <img src="odhs3.png" height="80px">
+                        </div>
+                        <h4 class="text-center">ODHS</h4>
+                        <p class="text-center" id="odhsfont">ODHS or On-Board Data Handling Subsystem aims to ensure
+                            seamless and
+                            orderly functioning of satellite parts. Data received from the satellite is processed and
+                            interpreted for understanding and use. They are responsible for the satellite’s smooth
+                            functioning throughout: giving tasks using a RTOS and maintaining a link between the
+                            hardware components.</p>
+                    </div>
+                    <div class="col-lg mx-4 mb-5"></div>
+                </div>
+            </div>
+        </div>
+        <!-- third -->
+
+        <div class="container-fluid">
+            <h1 class="text-center text-light mt-5 mb-5 display-4"><b>Meet our team</b></h1>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <hr style="background: white;">
+                <div class="row">
+                    <div class="col-sm-2 mx-auto">
+                        <div class="our-team">
+                            <div class="pic">
+                                <img src="akash.jpg" alt="team-member"
+                                    class="img-fluid rounded-circle mx-auto mb-5 mt-5">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">Akash Kumar Singh</h3>
+                                <span class="post">System Admin</span>
+                                <ul class="social">
+                                    <li><a href="https://www.instagram.com/a_k.singh/" class="fa fa-instagram"></a></li>
+                                    <li><a href="https://www.linkedin.com/in/akash-kumar-singh-824671190/"
+                                            class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 mx-auto">
+                        <div class="our-team">
+                            <div class="pic">
+                                <img src="rithika.jpg" alt="team-member"
+                                    class="img-fluid rounded-circle mx-auto mb-5 mt-5">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">T Rithika</h3>
+                                <span class="post">System Engineer</span>
+                                <ul class="social">
+                                    <li><a href="https://www.instagram.com/rithika_th/" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 mx-auto">
+                        <div class="our-team">
+                            <div class="pic">
+                                <img src="chinmay.jpg" alt="team-member"
+                                    class="img-fluid rounded-circle mx-auto mb-5 mt-5">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">Chinmay Marathey</h3>
+                                <span class="post">System Engineer</span>
+                                <ul class="social">
+                                    <li><a href="https://www.instagram.com/marathey__/" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/chinmay-marathey-5653991a4/"
+                                            class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 mx-auto">
+                        <div class="our-team">
+                            <div class="pic">
+                                <img src="himanshi.jpg" alt="team-member"
+                                    class="img-fluid rounded-circle mx-auto mb-5 mt-5">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">Himanshi Tanwer</h3>
+                                <span class="post">Subsystem Head COMMS</span>
+                                <ul class="social">
+                                    <li><a href="https://www.instagram.com/_himanshiii/" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/himanshi-tanwer-6133aa215/"
+                                            class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 mx-auto">
+                        <div class="our-team">
+                            <div class="pic">
+                                <img src="abhishek.jpg" alt="team-member"
+                                    class="img-fluid rounded-circle mx-auto mb-5 mt-5">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">Abhishek Avadhanam</h3>
+                                <span class="post">Subsystem Head ADCS</span>
+                                <ul class="social">
+                                    <li><a href="https://www.instagram.com/nerdtodend/" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/abhishek-avadhanam-b25511193/"
+                                            class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div style="background-color: black;">
+        <p>hello</p>
+    </div> -->
+    <footer class="bg-black" id="foot">
+        <div class="container">
+            <div class="row p-3">
+                <h3 class="text-light">Contact Us</h3>
+            </div>
+            <div class="row text-light m-2">
+                <div class="col">
+                    <h5>Akash Kumar Singh</h5>
+                    <p>+91-9398805306</p>
+                </div>
+                <div class="col">
+                    <p class="text-center"><a class="text-light"
+                            href="mailto:akashsinghkumar17@gmai l.com">akashsinghkumar17@gmail.com</a></p>
+                    <p class="text-center"><a class="text-light"
+                            href="mailto:parikshit.musat@gmail.com">parikshit.musat@gmail.com</a></p>
+                </div>
+                <div class="col text-right ml-5">
+                    <a href="https://www.instagram.com/parikshitsatellite/"><img class="mx-2" src="instagram2.png"
+                            height="45px" id="insta"></a>
+                    <a href="https://www.linkedin.com/company/parikshit-student-satellite"><img class="mx-2"
+                            src="linkedin2.png" height="45px" id="linkedin"></a>
+                    <a href="https://www.facebook.com/parikshit.satellite"><img class="mx-2" src="img00.png"
+                            height="45px" id="facebook"></a>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <!--clearfix-->
+                </div>
+                <div class="col">
+                    <!--clearfix-->
+                </div>
+                <div class="col">
+                    <!--clearfix-->
+                </div>
+                <div class="col">
+                    <!--clearfix-->
+                </div>
+                <div class="col">
+                    <!--clearfix-->
+                </div>
+                <div class="col">
+                    <p class="text-light" style="font-size: 11px;">parikshit© All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
